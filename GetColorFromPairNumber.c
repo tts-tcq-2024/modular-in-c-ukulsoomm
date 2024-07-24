@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "ColorPair.h"
-ColorPair getColorFromPairNumber(int pairNumber);
 
 ColorPair getColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
