@@ -1,6 +1,6 @@
 #ifndef EVEN_COUNT_COLOR_CODE_H
 #define EVEN_COUNT_COLOR_CODE_H
-#inlcude "ColorCode.h"
+#include "ColorCode.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
