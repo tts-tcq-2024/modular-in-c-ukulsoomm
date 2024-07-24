@@ -2,10 +2,10 @@
 #include "ColorCode.h"
 #include "EvenCountColorCode.h"
 
-const char* majorColorNames[] = {
+const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };
-const char* minorColorNames[] = {
+const char* MinorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
 
