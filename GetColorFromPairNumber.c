@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "ColorPair.h"
+#include EvenCountColorCode.h
 
 ColorPair getColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
