@@ -1,5 +1,5 @@
-#ifndef COLOR_PAIR_H
-#define COLOR_PAIR_H
+#ifndef COLOR_CODE_H
+#define COLOR_CODE_H
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
@@ -15,4 +15,4 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
-#endif // COLOR_PAIR_H
+#endif // COLOR_CODE_H
