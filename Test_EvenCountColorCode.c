@@ -1,4 +1,7 @@
-
+#include <stdio.h>
+#include <assert.h>
+#include "ColorCode.h"
+#include "EvenCountColorCode.h"
 
 
 void testNumberToPair(int pairNumber,
