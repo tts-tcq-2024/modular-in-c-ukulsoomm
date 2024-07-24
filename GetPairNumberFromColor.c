@@ -13,6 +13,6 @@ int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
 int getPairNumberFromColor(const ColorPair* colorPair) {
-    return colorPair->major * numberOfMinorColors +
-            colorPair->minor + 1;
+    return colorPair->majorColor * numberOfMinorColors +
+            colorPair->minorColor + 1;
 }
