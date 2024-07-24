@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "ColorPair.h"
+#include EvenCountColorCode.h
+
 const char* majorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };
-
 const char* minorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
