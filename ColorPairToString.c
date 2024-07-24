@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include EvenCountColorCode.h
+#include "ColorCode.h"
+#include "EvenCountColorCode.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
