@@ -2,7 +2,7 @@
 #include "ColorCode.h"
 #include "EvenCountColorCode.h"
 
-ColorPair getColorFromPairNumber(int pairNumber) {
+ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor = 
