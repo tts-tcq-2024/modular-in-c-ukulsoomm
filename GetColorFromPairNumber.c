@@ -8,7 +8,7 @@ ColorPair getColorFromPairNumber(int pairNumber) {
     colorPair.Major = 
         (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
     colorPair.Minor =
-        (enum minorColor)(zeroBasedPairNumber % numberOfMinorColors);
+        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
     return colorPair;
 }
 
